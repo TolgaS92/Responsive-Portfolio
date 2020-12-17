@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: block;
+    float: left;
+    margin: 20px;
+    color: rgb(14, 4, 4);
+}
+
+ul li {
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    float: right;
+    color: rgb(14, 4, 4);
+}
+section nav {
+    display: block;
+    font-size: 32px;
+    font-weight: 1000;
+    color: rgb(14, 4, 4);
+    background-color: wheat;
+}
+
+section img {
+    position: relative;
+    float: left;
+    height: 450px;
+    width: 350px;
+}
+section h1 {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(14, 4, 4);
+    font-size: x-large;
+}
+body {
+    display: block;
+    background: url('../images/NYcity.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    float: left;
+    padding: 20px;
+    margin-top: 150px;
+    position: fixed;
+    float: left;
+}
+
+.flex-container > section {
+    margin: 10px;
+    padding: 20px;
+
+}
