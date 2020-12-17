@@ -28,17 +28,31 @@ section nav {
 section img {
     position: relative;
     float: left;
+    margin: 10px;
+    padding:10px;
     height: 450px;
     width: 350px;
 }
 section h1 {
-    display: block;
-    float: left;
-    padding: 10px;
-    margin: 10px;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
     color: rgb(14, 4, 4);
     font-size: x-large;
 }
+
+section h2 {
+    display: block;
+    text-align: center;
+}
+
+section p {
+    display: block;
+    text-align: center;
+    font-style: serif, comic;
+    font-weight: 500;
+}
+
 body {
     display: block;
     background: url('../images/NYcity.jpg');
@@ -51,7 +65,7 @@ body {
 }
 
 .flex-container {
-    display: flex;
+    display: block;
     float: left;
     padding: 20px;
     margin-top: 150px;
