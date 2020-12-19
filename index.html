@@ -1,61 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../2-Responsive-Portfolio/css/style.css">
     <title>Tolga Secme - Portfolio</title>
 </head>
 
 <body>
-    <section>
-        <nav>
-            <header>
-                Tolga Secme
-            </header>
-            <ul>
-                <li>Contact</li>
-                <li>Portfolio</li>
-                <li>About</li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="../2-Responsive-Portfolio/index.html">
+                    <h1>Tolga Secme</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../2-Responsive-Portfolio/index.html">About</a>
+                        <a class="nav-link" href="../2-Responsive-Portfolio/portfolio.html">Portfolio</a>
+                        <a class="nav-link active" href="../2-Responsive-Portfolio/contact.html"><i
+                                class="bi bi-chat-text-fill"></i>Contact
+                            <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </div>
         </nav>
-    </section>
+    </header>
+    <div class="container">
+        <hr>
+        <h1>About me!</h1>
+        <hr>
 
-    <section class="flex-container">
-        <section>
-            <h1>
-                About me
-            </h1>
-        </section>
-        <section>
+        <figure class="figure float-left">
+            <img src="../2-Responsive-Portfolio/images/profilepic.jpg" class="rounded float-left" alt="Tolgaprofileimg">
+            <figcaption class="figure-caption">Ordu/Turkey</figcaption>
+        </figure>
+        <div class="d-flex flex-column bd-highlight mb-3">
+            <div id="introduction" class="p-2 bd-highlight">
+                Welcome to my Blog! My name is Tolga Secme and I'm 28-year old
+                full stack web developer. I was born in switzerland and raised in Turkey,
+                and attend college in Samsun, Turkey<a href="https://www.omu.edu.tr/en" target="_blank"
+                    class="text-decoration-none">(Ondokuzmayis
+                    University)</a>, and got my Bachelors Degree on Chemistry.
+                I worked at the Lactalis Company for 2 years, as a sales manager.
+                And I decided to come USA, 3 years ago. I planned to improve my English,
+                so myself,and I started to Full stack front end web developer boot camp,
+                at Denver University. I hope, I can find a chance to get a job on this sector.
+                So far, I love coding, and I would do it, end of my life..
+            </div>
+            <div id="introduction" class="p-2 bd-highlight">
+                Here at <a href="https://tolgas92.github.io/2-Responsive-Portfolio/" target="_blank"
+                    class="text-decoration-none">tolgas92.github.io</a>,
+                I write all about my portfolio, projects, my life, and life in Denver.
+                It's my goal to develope my skills on coding, to get a best career for my life.
+            </div>
+            <div id="introduction" class="p-2 bd-highlight">
+                In my spare times, I would like to discover new informations about coding,
+                and I like to go hiking or ride a motorbike in the mountains.
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="card text-center">
+            <div class="card-header">
+                &copy; Tolga Secme, 2020, All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-            <hr>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
-            <img src="images/profilepic.jpg" alt="tolgaprofilepic">
-        </section>
-        <section>
-            <h2>Hello There!</h2>
-            <article>
-                <p>
-                    Welcome to my Blog! My name is Tolga Secme and I'm 28-year old
-                    full stack web developer. I was born in switzerland and raised in Turkey,
-                    and attend college in Samsun, Turkey<a href="https://www.omu.edu.tr/en"
-                        target="_blank">(Ondokuzmayis University)</a>.
-                </p>
-                <p>
-                    Here at <a href="https://tolgas92.github.io/2-Responsive-Portfolio/">tolgas92.github.io</a>,
-                    I write all about my portfolio, projects, my life, and life in Denver.
-                    It's my goal to develope my skills on coding, to get a best career for my life.
-                </p>
-                <p>
-                    In my spare times, I would like to discover new informations about coding,
-                    and I like to go hiking or ride a motorbike in the mountains.
-                </p>
-            </article>
-            </article>
-        </section>
-    </section>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    </div>
 </body>
 
 </html>

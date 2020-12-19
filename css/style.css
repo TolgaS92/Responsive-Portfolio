@@ -1,80 +1,63 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    border-style: border-box;
 }
-header {
-    display: block;
-    float: left;
-    margin: 20px;
-    color: rgb(14, 4, 4);
-}
-
-ul li {
-    padding: 10px;
-    margin: 10px;
-    display: block;
-    float: right;
-    color: rgb(14, 4, 4);
-}
-section nav {
-    display: block;
-    font-size: 32px;
-    font-weight: 1000;
-    color: rgb(14, 4, 4);
-    background-color: wheat;
-}
-
-section img {
-    position: relative;
-    float: left;
-    margin: 10px;
-    padding:10px;
-    height: 450px;
-    width: 350px;
-}
-section h1 {
-    position: fixed;
-    padding: 0px;
-    margin: 0px;
-    color: rgb(14, 4, 4);
-    font-size: x-large;
-}
-
-section h2 {
-    display: block;
-    text-align: center;
-}
-
-section p {
-    display: block;
-    text-align: center;
-    font-style: serif, comic;
-    font-weight: 500;
-}
-
 body {
-    display: block;
+    font-size: 16px;
     background: url('../images/NYcity.jpg');
     background-repeat: no-repeat;
     background-position: cover;
-    color: black;
-    display: block;
-    padding: 10px;
-    margin: 10px;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+/** HEADER **/
+.figure img {
+    height: 450px;
+    width: 350px;
+}
+.navbar-brand {
+    padding-top: 25px;
+  }
+.navbar-brand h1 {
+    font-family: 'Lora', serif ;
+    color: rgb(89, 129, 240);
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+.navbar-nav {
+    margin-top: 10px;
+}
+.navbar-nav a {
+    text-align: center;
+}
+.navbar-nav a:hover {
+    background: #c4c7fa;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+/* END HEADER */
+
+/** CONTENT **/
+#introduction {
+  font-size: 16px;
+  inline-size: 1.5;
+  display: block;
+  margin-left: 10px;
+  margin-top: 25px;
+  clear: both;
 }
 
-.flex-container {
-    display: block;
-    float: left;
-    padding: 20px;
-    margin-top: 150px;
-    position: fixed;
-    float: left;
-}
-
-.flex-container > section {
-    margin: 10px;
-    padding: 20px;
-
+/** FOOTER **/
+.card {
+  display: block;
+  clear: both;
 }
