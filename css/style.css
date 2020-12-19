@@ -4,8 +4,8 @@
 body {
     font-size: 16px;
     background: url('../images/NYcity.jpg');
-    background-position: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Oxygen', sans-serif;
   }
 
