@@ -4,8 +4,8 @@
 body {
     font-size: 16px;
     background: url('../images/NYcity.jpg');
-    background-repeat: no-repeat;
     background-position: cover;
+    background-repeat: repeat;
     font-family: 'Oxygen', sans-serif;
   }
 
@@ -47,17 +47,18 @@ body {
 /* END HEADER */
 
 /** CONTENT **/
+h2 {
+  margin-left: 25px;
+}
 #introduction {
   font-size: 16px;
   inline-size: 1.5;
-  display: block;
   margin-left: 10px;
   margin-top: 25px;
   clear: both;
 }
 
 /** FOOTER **/
-.card {
-  display: block;
+.card-header {
   clear: both;
 }
