@@ -56,3 +56,4 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 
 ### Screenshots
+https://github.com/TolgaS92/2-Responsive-Portfolio/issues/2
