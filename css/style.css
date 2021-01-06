@@ -1,19 +1,15 @@
-* {
-    border-style: border-box;
-}
+/**BODY**/
 body {
     font-size: 16px;
-    background: url('../images/NYcity.jpg');
+    background: url('../images/best.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Oxygen', sans-serif;
   }
+/**END BODY**/
 
 /** HEADER **/
-.figure img {
-    height: 450px;
-    width: 350px;
-}
+
 .navbar-brand {
     padding-top: 25px;
   }
@@ -48,17 +44,28 @@ body {
 
 /** CONTENT **/
 h2 {
+  color: rgb(17, 17, 112);
+  font-size: 36px;
   margin-left: 25px;
+  font-family: 'Anton', sans-serif;
 }
 #introduction {
   font-size: 16px;
-  inline-size: 1.5;
-  margin-left: 10px;
-  margin-top: 25px;
+  margin-top: 5px;
   clear: both;
 }
+.cntbx {
+  background-color: rgb(245, 242, 233);
+}
+/** END CONTENT**/
 
-/** FOOTER **/
-.card-header {
-  clear: both;
+/**FOOTER**/
+.footer {
+  margin-top: auto;
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
