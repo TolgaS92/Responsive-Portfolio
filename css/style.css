@@ -57,6 +57,9 @@ h2 {
 .cntbx {
   background-color: rgb(245, 242, 233);
 }
+.push {
+  height: 15vh;
+}
 /** END CONTENT**/
 
 /**FOOTER**/
