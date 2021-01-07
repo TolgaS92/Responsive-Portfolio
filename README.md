@@ -16,24 +16,24 @@ How to make grid system on my page..
 ## ScreenShots
 
 # Mobile
-![Mobile view](./assets/images/screenshots/aboutmepageon375x667mobilescreen.jpg)
-![Mobile view](./assets/images/screenshots/contactpagemobileversion.jpg)
-![Mobile view](./assets/images/screenshots/portfoliopagemobileversion.jpg)
+![Mobile view](./assets/screenshots/aboutmepageon375x667mobilescreen.jpg)
+![Mobile view](./assets/screenshots/contactpagemobileversion.jpg)
+![Mobile view](./assets/screenshots/portfoliopagemobileversion.jpg)
 
 # Desktop
-![Desktop view](./assets/images/screenshots/AboutmepageonDesktop.jpg)
-![Desktop view](./assets/images/screenshots/Portfoliopageondesktop.jpg)
-![Desktop view](./assets/images/screenshots/Contactpagedesktop.jpg)
+![Desktop view](./assets/screenshots/AboutmepageonDesktop.jpg)
+![Desktop view](./assets/screenshots/Portfoliopageondesktop.jpg)
+![Desktop view](./assets/screenshots/Contactpagedesktop.jpg)
 
 # Tablet
-![Tablet view](./assets/images/screenshots/aboutmepageon768x1024.jpg)
-![Tablet view](./assets/images/screenshots/portfoliopagetabletview768x1024.jpg)
-![Tablet view](./assets/images/screenshots/contactpagetabletview768x1024.jpg)
+![Tablet view](./assets/screenshots/aboutmepageon768x1024.jpg)
+![Tablet view](./assets/screenshots/portfoliopagetabletview768x1024.jpg)
+![Tablet view](./assets/screenshots/contactpagetabletview768x1024.jpg)
 
 # HTML validator
 
-![HTML Validated](./assets/images/screenshots/htmlvalidated.jpg)
+![HTML Validated](./assets/screenshots/htmlvalidated.jpg)
 
 ## Link
-github.io link
-github respository link
+[github.io](https://tolgas92.github.io/2-Responsive-Portfolio/)
+[github](https://github.com/TolgaS92/2-Responsive-Portfolio)
