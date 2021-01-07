@@ -16,23 +16,23 @@ How to make grid system on my page..
 ## ScreenShots
 
 # Mobile
-![Mobile view](./assets/images/screenshots/aboutmepageon375x667mobilescreen)
-![Mobile view](./assets/images/screenshots/contactpagemobileversion)
-![Mobile view](./assets/images/screenshots/portfoliopagemobileversion)
+![Mobile view](./assets/images/screenshots/aboutmepageon375x667mobilescreen.jpg)
+![Mobile view](./assets/images/screenshots/contactpagemobileversion.jpg)
+![Mobile view](./assets/images/screenshots/portfoliopagemobileversion.jpg)
 
 # Desktop
-![Desktop view](./assets/images/screenshots/AboutmepageonDesktop)
-![Desktop view](./assets/images/screenshots/Portfoliopageondesktop)
-![Desktop view](./assets/images/screenshots/Contactpagedesktop)
+![Desktop view](./assets/images/screenshots/AboutmepageonDesktop.jpg)
+![Desktop view](./assets/images/screenshots/Portfoliopageondesktop.jpg)
+![Desktop view](./assets/images/screenshots/Contactpagedesktop.jpg)
 
 # Tablet
-![Tablet view](./assets/images/screenshots/aboutmepageon768x1024)
-![Tablet view](./assets/images/screenshots/portfoliopagetabletview768x1024)
-![Tablet view](./assets/images/screenshots/contactpagetabletview768x1024)
+![Tablet view](./assets/images/screenshots/aboutmepageon768x1024.jpg)
+![Tablet view](./assets/images/screenshots/portfoliopagetabletview768x1024.jpg)
+![Tablet view](./assets/images/screenshots/contactpagetabletview768x1024.jpg)
 
 # HTML validator
 
-![HTML Validated](./assets/images/screenshots/htmlvalidated)
+![HTML Validated](./assets/images/screenshots/htmlvalidated.jpg)
 
 ## Link
 github.io link
