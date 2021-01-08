@@ -54,8 +54,12 @@ h2 {
   margin-top: 5px;
   clear: both;
 }
-.cntbx {
+.content-box {
   background-color: rgb(245, 242, 233);
+}
+
+.card-envo:hover {
+  background-color: rgb(125, 143, 127);
 }
 
 /** END CONTENT**/
