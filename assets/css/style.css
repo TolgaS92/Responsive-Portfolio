@@ -1,45 +1,46 @@
 /**BODY**/
 body {
-    font-size: 16px;
-    background: url('../images/best.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: 'Oxygen', sans-serif;
-  }
+  font-size: 16px;
+  background: url("../images/best.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: "Oxygen", sans-serif;
+}
 /**END BODY**/
 
 /** HEADER **/
 
 .navbar-brand {
-    padding-top: 25px;
-  }
-.navbar-brand h1 {
-    font-family: 'Lora', serif ;
-    color: rgb(89, 129, 240);
-    font-size: 1.75em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: -10px;
-    margin-bottom: 0;
-    line-height: .75;
+  padding-top: 25px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: rgb(89, 129, 240);
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -10px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
 .navbar-nav {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 .navbar-nav a {
-    text-align: center;
+  text-align: center;
 }
 .navbar-nav a:hover {
-    background: #c4c7fa;
+  background: #c4c7fa;
 }
 .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
+  clear: both;
+  margin-top: -30px;
+}
 /* END HEADER */
 
 /** CONTENT **/
@@ -47,9 +48,9 @@ h2 {
   color: rgb(17, 17, 112);
   font-size: 36px;
   margin-left: 25px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
-#introduction {
+.introduction {
   font-size: 16px;
   margin-top: 5px;
   clear: both;
