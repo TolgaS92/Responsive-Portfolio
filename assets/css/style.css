@@ -114,3 +114,11 @@ h2 {
   color: white;
   transform: rotateY(180deg);
 }
+
+.home-image {
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 3px 1px black;
+  width: auto;
+  height: auto;
+}
