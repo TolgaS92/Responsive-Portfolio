@@ -1,0 +1,16 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "1. Bootstrap 2. Google Fonts 3. Jquery",
+  "main": "index.js",
+  "homepage": "https://TolgaS92.github.io/Responsive-Portfolio",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
